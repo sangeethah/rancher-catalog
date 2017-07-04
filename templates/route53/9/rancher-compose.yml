@@ -5,17 +5,17 @@
   minimum_rancher_version: v0.44.0
   questions:
     - variable: "AWS_ACCESS_KEY"
-      label: "AWS access key"
+      label: "AWS access key1"
       description: "Access key to your AWS account"
       type: "string"
       required: true
     - variable: "AWS_SECRET_KEY"
-      label: "AWS secret key"
+      label: "AWS secret key1"
       description: "Secret key to your AWS account"
       type: "string"
       required: true
     - variable: "AWS_REGION"
-      label: "AWS region"
+      label: "AWS region1"
       description: "AWS region name"
       type: "string"
       default: "us-west-2"
@@ -27,12 +27,12 @@
       default: 299 
       required: false
     - variable: "ROOT_DOMAIN"
-      label: "Hosted zone name"
+      label: "Hosted zone name1"
       description: "Route53 hosted zone name (zone has to be pre-created). DNS entries will be created for <service>.<stack>.<environment>.<hosted zone>"
       type: "string"
       required: true
     - variable: "ROUTE53_ZONE_ID"
-      label: "Hosted zone ID"
+      label: "Hosted zone ID1"
       description: "If there are multiple zones with the same name, you additionally need to specify the ID of the hosted zone to be used."
       type: "string"
       required: false
